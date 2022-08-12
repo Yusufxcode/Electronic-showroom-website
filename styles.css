@@ -25,12 +25,23 @@ body {
 .head2 {
     display: flex;
     justify-content: space-between;
-    margin: 1rem;
+    padding-top: 1rem !important;
+    background-color: violet;
+    width: 100%;
+    margin: auto;
+    border: 1px solid white;
+}
+
+nav {
+    margin-right: 5rem;
 }
 
 nav .navs {
     display: inline;
     margin: 0.3rem;
+    font-size: 1.2rem;
+    border-bottom: 2px solid black;
+
 }
 
 nav .navs a {
@@ -39,3 +50,12 @@ nav .navs a {
     font-weight: 600;
 }
 
+.main {
+    
+}
+
+.hero {
+    height: 25rem;
+    width:100%;
+    background-color: green;
+}
