@@ -26,10 +26,16 @@ body {
     display: flex;
     justify-content: space-between;
     padding-top: 1rem !important;
-    background-color: violet;
+    background-color: white;
     width: 100%;
     margin: auto;
     border: 1px solid white;
+}
+
+.logo img {
+    height: 3rem;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 nav {
@@ -50,9 +56,6 @@ nav .navs a {
     font-weight: 600;
 }
 
-.main {
-    
-}
 
 .hero {
     height: 25rem;
