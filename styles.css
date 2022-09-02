@@ -1,17 +1,18 @@
 :root{
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 
 }
 body {
     padding: 0;
     margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+
 }
 
 .head1{
     height: 2.5rem;
     width: 100%;
-    background-color: rgb(78, 78, 221);
+    background-color: #5B4CCC;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -46,16 +47,18 @@ nav .navs {
     display: inline;
     margin: 0.3rem;
     font-size: 1.2rem;
-    border-bottom: 2px solid black;
 
 }
 
 nav .navs a {
     text-decoration: none;
-    color: black;
+    color: #5B4CCC;
     font-weight: 600;
 }
 
+nav .navs a:hover{
+    border-bottom: 1.5px solid grey;
+}
 
 .hero {
     height: 30rem;
@@ -66,7 +69,7 @@ nav .navs a {
 
 .heroimg{
     height: 30rem;
-    width:100%;
+    width: 100%;
     opacity: 0.7;
     background-position: center;
     background-size: cover;
@@ -75,19 +78,39 @@ nav .navs a {
 .herotxt{
     position: absolute;
     top: 30%;
-    left: 15%;
-    font-family: arial;
+    left: 5%;
     text-align: center;
 }
 
 .herotxt h1{
-    font-size: 45px;
-    font-weight: 800;
+    font-size: 50px;
+    font-weight: 900;
     color: white;
+    font-family: arial;
 }
 
 .herotxt h3{
-    font-size: 15px;
+    font-size: 30px;
     font-weight: 600;
     color: white;
+}
+
+.statement{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    gap: 2rem;
+    margin: 0 2rem;
+    box-sizing: border-box;
+}
+.mission, .vision{
+    background-color: #9C8EF4;
+    color: whitesmoke;
+    margin: 5rem 1rem;
+    padding: 0 20px;
+    box-shadow: 5px 10px 15px #5B4CCC;
+}
+
+.mission, .vision p{
+    line-height: 20px;
+    text-align: justify;
 }
