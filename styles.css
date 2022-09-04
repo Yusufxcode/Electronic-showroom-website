@@ -114,3 +114,21 @@ nav .navs a:hover{
     line-height: 20px;
     text-align: justify;
 }
+
+.productcatalogue {
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    gap: 2rem;
+    margin: auto;
+}
+
+.productcatalogue > .freezer, .refrigerator, .generator h2 {
+    text-align: center;
+}
+
+.productcatalogue > .freezer, .refrigerator, .generator p {
+    line-height: 1rem;
+    width: 60%;
+    text-align: justify;
+}
