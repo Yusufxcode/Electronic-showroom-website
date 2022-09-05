@@ -116,19 +116,30 @@ nav .navs a:hover{
 }
 
 .productcatalogue {
-    display: flex;
-    justify-content:space-around ;
-    align-items: center;
-    gap: 2rem;
-    margin: auto;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 1rem;
+   place-items: center;
+   margin: 0 50px;
 }
 
-.productcatalogue > .freezer, .refrigerator, .generator h2 {
+.product {
+    box-shadow: 3px 5px 10px #9C8EF4;
+}
+
+.product img {
+    width: 80%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    display: grid;
+}
+
+.product h2 {
     text-align: center;
+    font-size: 1.8rem;
+
 }
 
-.productcatalogue > .freezer, .refrigerator, .generator p {
-    line-height: 1rem;
-    width: 60%;
-    text-align: justify;
+.product p {
+    margin: 20px;
 }
