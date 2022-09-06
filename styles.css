@@ -118,7 +118,7 @@ nav .navs a:hover{
 .productcatalogue {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   gap: 1rem;
+   gap: 2rem;
    place-items: center;
    margin: 0 50px;
 }
@@ -128,18 +128,20 @@ nav .navs a:hover{
 }
 
 .product img {
+    display: block;
     width: 80%;
     aspect-ratio: 1/1;
     object-fit: cover;
-    display: grid;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .product h2 {
     text-align: center;
     font-size: 1.8rem;
-
 }
 
 .product p {
     margin: 20px;
 }
+
