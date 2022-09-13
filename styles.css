@@ -105,7 +105,7 @@ nav .navs a:hover{
 .mission, .vision{
     background-color: #9C8EF4;
     color: whitesmoke;
-    margin: 5rem 1rem;
+    margin: 5rem 1rem 1rem 1rem;
     padding: 0 20px;
     box-shadow: 5px 10px 15px #5B4CCC;
 }
@@ -147,9 +147,9 @@ nav .navs a:hover{
 
 .text {
     text-align: center;
-    margin: 50px 0px 0px 0px;
     font-size: 3rem;
     font-weight: 900;
+    margin: 50px 0px;
     color: #5B4CCC;
 }
 
@@ -171,4 +171,32 @@ nav .navs a:hover{
     font-size: 1.2rem;
     margin: 1rem;
 
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts img {
+    height: 2rem;
+    width: 2rem;
+}
+
+.location, .phone, .email {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
 }
