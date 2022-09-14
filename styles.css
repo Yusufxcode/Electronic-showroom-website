@@ -176,6 +176,8 @@ nav .navs a:hover{
 .footer {
     display: flex;
     justify-content: space-around;
+    background-color: whitesmoke;
+    align-items: center;
 }
 
 
@@ -196,7 +198,43 @@ nav .navs a:hover{
     margin-bottom: 0.5rem;
 }
 
+.link {
+    margin-bottom: 1.5rem;
+
+}
+
+.link a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.link a:hover {
+    text-shadow: 2px 2px 2px #5B4CCC;
+    border-bottom: 1px solid #5B4CCC;
+}
+
+.contact-us {
+    margin-top: 0px;
+
+}
+
 .message {
     display: flex;
     flex-direction: column;
+}
+
+.name, .emaill, .msg {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+input[type=submit] {
+    background-color: #9C8EF4;
+    color: white;
+    border: none;
+    width: 30%;
+    height: 30px;
+    margin-bottom: 30px;
 }
